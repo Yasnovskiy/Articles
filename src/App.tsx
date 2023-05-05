@@ -1,10 +1,13 @@
-import { MyFunction } from '../MyFunction';
+import { useClient } from './useClient';
 
 function App() {
-
-  return ( 
+  useClient({
+    name
+  });
+  
+  return (
     <>
-      <MyFunction name='MyFuntion' price={10}/>
+    <div>ssss</div>
     </>
   )
 }
