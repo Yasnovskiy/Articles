@@ -4,7 +4,7 @@ function App() {
 
   return ( 
     <>
-      <MyFunction name='MyFuntion' />
+      <MyFunction name='MyFuntion' price={10}/>
     </>
   )
 }
