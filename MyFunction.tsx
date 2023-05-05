@@ -6,15 +6,13 @@ type MyFunctionType = {
 
 function MyFunction({ 
   name, 
-  price,
-  sale,
+  price
 }: MyFunctionType) {
 
   return (
     <>
       <div>{name}</div>
       <div>{price}</div>
-      <div>{sale}</div>
     </>
   )
 }
