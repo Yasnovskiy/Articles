@@ -3,8 +3,11 @@ type MyFunctionType = {
     price: number;
 }
 
-function MyFunction({ name, price }: MyFunctionType) {
-
+function MyFunction({ 
+  name, 
+  price,
+}: MyFunctionType) {
+  
   return (
     <>
       <div>{name}</div>
